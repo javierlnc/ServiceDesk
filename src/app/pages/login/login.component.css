@@ -1,0 +1,11 @@
+section{
+    background: rgb(16,16,38);
+background: linear-gradient(0deg, rgba(16,16,38,1) 0%, rgba(45,44,89,1) 56%);
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.065);
+    border-radius: 2rem;
+}
+.card-body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
