@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
+import { FormControl, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -10,8 +10,8 @@ import { FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
 })
 export class LoginComponent {
   loginForm : FormGroup = new FormGroup({
-    account : new FormControl(''),
-    password : new FormControl('')
+    account : new FormControl('', Validators.required),
+    password : new FormControl('',Validators.required)
   });
   onSubmit(){
     console.warn(this.loginForm.value)
