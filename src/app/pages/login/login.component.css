@@ -1,3 +1,4 @@
+
 section{
     background: rgb(16,16,38);
 background: linear-gradient(0deg, rgba(16,16,38,1) 0%, rgba(45,44,89,1) 56%);
@@ -7,5 +8,22 @@ background: linear-gradient(0deg, rgba(16,16,38,1) 0%, rgba(45,44,89,1) 56%);
     border-radius: 2rem;
 }
 .card-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
+
 }
+.alert-danger{
+  margin-top: 0.5rem;
+  color: red;
+  font-size: small;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem 0 0 2rem;
+}
+
